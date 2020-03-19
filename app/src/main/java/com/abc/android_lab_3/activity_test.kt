@@ -12,8 +12,5 @@ class activity_test : AppCompatActivity() {
         setContentView(R.layout.activity_test)
     }
 
-    fun clickDisplayCorrectToast(view: View) {
-        val intent = Intent(this, activity_test::class.java)
-        startActivity(intent)
-    }
+   
 }

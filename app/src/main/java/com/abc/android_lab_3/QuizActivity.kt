@@ -11,7 +11,7 @@ class QuizActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
-    }
+    }  
 
     fun clickDisplayCorrectToast(view: View) {
         Toast.makeText(this, R.string.correct_toast, Toast.LENGTH_SHORT).show()
